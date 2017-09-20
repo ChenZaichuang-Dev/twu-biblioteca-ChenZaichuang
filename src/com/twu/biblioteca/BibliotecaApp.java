@@ -1,8 +1,10 @@
 package com.twu.biblioteca;
 
-public class BibliotecaApp {
+import java.io.IOException;
 
-    public static void main(String[] args) {
-        System.out.println("Hello, world!");
+public class BibliotecaApp {
+    public static void main(String[] args) throws IOException {
+        MenuNodeManager menuNodeManager = new MenuNodeManager();
+        menuNodeManager.runMenu();
     }
 }
